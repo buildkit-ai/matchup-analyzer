@@ -7,8 +7,8 @@ description: >-
   Triggers: matchup analysis, head-to-head, team comparison, player comparison, sports
   analytics, stat comparison, pregame analysis, game preview, matchup trends, who will win,
   team strengths.
-author: live-data-tools
-repository: https://github.com/live-data-tools/matchup-analyzer
+author: buildkit-ai
+repository: https://github.com/buildkit-ai/matchup-analyzer
 license: MIT
 ---
 
