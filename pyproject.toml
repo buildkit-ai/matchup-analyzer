@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "shipp-matchups"
+name = "matchup-analyzer"
 version = "0.1.0"
 description = "Head-to-head team and player matchup analysis for NBA, MLB, and Soccer"
 readme = "README.md"
@@ -21,4 +21,4 @@ Homepage = "https://github.com/buildkit-ai/matchup-analyzer"
 Repository = "https://github.com/buildkit-ai/matchup-analyzer"
 
 [tool.hatch.build.targets.wheel]
-packages = ["shipp_matchups"]
+packages = ["matchup_analyzer"]
