@@ -65,8 +65,6 @@ pip install requests
 
 ### 2. Set your API keys
 
-Requires a Shipp.ai API key for schedule and live game data -- get 5,000 free credits/day at [platform.shipp.ai](https://platform.shipp.ai).
-
 ```bash
 export SHIPP_API_KEY="your-api-key-here"
 
@@ -108,7 +106,6 @@ Automatically generates matchup cards for every game on today's schedule. Ideal 
 
 | Source | Data | Auth Required |
 |--------|------|---------------|
-| Live game feed (via Shipp.ai) | Today's schedule, live scores | API key (free tier) |
 | balldontlie.io | NBA team/player stats | None |
 | statsapi.mlb.com | MLB team stats, pitcher/batter splits | None |
 | football-data.org | Soccer standings, head-to-head records | API key (free tier) |
@@ -123,7 +120,3 @@ Automatically generates matchup cards for every game on today's schedule. Ideal 
 ## License
 
 MIT
-
----
-
-<sub>Powered by [Shipp.ai](https://shipp.ai) real-time sports data</sub>
